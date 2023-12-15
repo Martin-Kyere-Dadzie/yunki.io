@@ -1,0 +1,155 @@
+@font-face {
+    font-family: varelaRoundRegular;
+    src: url(../../public/fonts/VarelaRound-Regular.otf);
+  }
+  @font-face {
+    font-family: poppinsBold;
+    src: url(../../public/fonts/poppins/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: poppinsMedium;
+    src: url(../../public/fonts/poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: poppinsLight;
+    src: url(../../public/fonts/poppins/Poppins-Light.ttf);
+  }
+
+  :root{
+    --skyblue: #406DE9;
+    --light-blue: #0200BB;
+    --yunki-color: #F40802;
+    --light-gray: #F7F7F7;
+    --dark-gray: #d9d9d9;
+    --darker-gray: #a4a4a4;
+    --yellow: #ffb700;
+    --font-color: #434343;
+    }
+  
+  *{
+    font-family: varelaRoundRegular;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    color: var(--font-color);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+  }
+  .offer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    width: 100%;
+    background-color: var(--light-gray);
+  }
+  .offer-container .offer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    /* background-color: aqua; */
+  }
+  .offer-heading h1{
+    font-family: varelaRoundRegular;
+  }
+  .offer-icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    /* background-color: saddlebrown; */
+  }
+  .offer-icon-text .main-offer{
+    position: relative;
+    width: 30%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    /* padding: 20px; */
+    margin: 10px;
+    border-radius: 25px;
+  }
+  .main-offer .offer-icon{
+    width: 22%;
+  }
+  .main-offer h4{
+    font-family: varelaRoundRegular;
+    font-size: 1rem;
+    color: var(--font-color);
+    text-transform: uppercase;
+  }
+  .main-offer .offer-text{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: white; */
+  }
+  .offer-text h5{
+    font-family: poppinsLight;
+    color: var(--font-color);
+  }
+  .main-offer .main-link{
+    position: relative;
+    width: 32%;
+    /* background-color: #ffb700; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-link .more-link{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    /* background-color: blue; */
+  }
+  
+  .more-link h5{
+    font-size: .8rem;
+    /* background-color: #d9d9d9; */
+    text-align: center;
+    position: absolute;
+    color: var(--yunki-color);
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    font-family: poppinsBold;
+    text-transform: uppercase;
+  }
+  .more-link img{
+    width: 13%;
+    position: absolute;
+    right: 0px;
+    /* width: 10%; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .offer-icon-text .dot-section{
+    width: 13%;
+    height: 70%;
+    /* background-color: blue; */
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dot-section img{
+    position: absolute;
+    /* top: -25%; */
+  }

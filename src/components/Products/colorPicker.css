@@ -1,0 +1,52 @@
+@font-face {
+    font-family: centurypopGothic;
+    src: url(../public/fonts/century-gothic/Century\ Gothic.ttf);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/century-gothic/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: poppinsBold;
+    src: url(../public/fonts/poppins/Poppins-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: poppinsMedium;
+    src: url(../public/fonts/poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: poppinsLight;
+    src: url(../public/fonts/poppins/Poppins-Light.ttf);
+  }
+  
+  :root{
+    --yunki-black: #0B0E14;
+  --skyblue: #000755;
+  --light-blue: #0200BB;
+  --yunki-color: #F40802;
+  --light-gray: #F7F7F7;
+  --dark-gray: #d9d9d9;
+  --darker-gray: #a4a4a4;
+  --yellow: #ffb700;
+  --font-color: #434343;
+  }
+  *{
+    font-family: centuryGothic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    color: var(--font-color);
+  }
+  .color-picker{
+    /* position: absolute; */
+    /* background-color: blue; */
+    width: 90%;
+    /* height: 8%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .color-picker img{
+    width: 17%;
+    cursor: pointer;
+  }

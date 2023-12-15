@@ -1,0 +1,81 @@
+@font-face {
+    font-family: centuryGothic;
+    src: url(../public/fonts/century-gothic/Century\ Gothic.ttf);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/century-gothic/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: poppinsBold;
+    src: url(../public/fonts/poppins/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: poppinsMedium;
+    src: url(../public/fonts/poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: poppinsLight;
+    src: url(../public/fonts/poppins/Poppins-Light.ttf);
+  }
+
+  :root{ 
+    --yunki-black: #0B0E14;
+    --skyblue: #000755;
+    --light-blue: #0200BB;
+    --yunki-color: #F40802;
+    --light-gray: #F7F7F7;
+    --dark-gray: #d9d9d9;
+    --darker-gray: #a4a4a4;
+    --yellow: #ffb700;
+    --font-color: #434343;
+    }
+
+*{
+    /* color: white; */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: poppinsMedium;
+}
+
+
+.popup{
+    /* background-color: indianred; */
+    position: fixed;
+    top: 12vh;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.279);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.popup-inner{
+    position: relative;
+    padding: 20px;
+    width: 60%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.popup-inner .close-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

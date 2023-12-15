@@ -1,0 +1,33 @@
+@font-face {
+  font-family: centuryGothic;
+  src: url(./components/public/fonts/century-gothic/Century\ Gothic.ttf);
+}
+@font-face {
+  font-family: centuryGothicBold;
+  src: url(./components/public/fonts/century-gothic/Century\ Gothic.ttf);
+}
+@font-face {
+  font-family: poppinsMedium;
+  src: url(./components/public/fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: varelaRoundRegular;
+  src: url(./components/public/fonts/VarelaRound-Regular.otf);
+}
+
+*:focus{
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+*{
+  font-family: varelaRoundRegular;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100vw;
+}

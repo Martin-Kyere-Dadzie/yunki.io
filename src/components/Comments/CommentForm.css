@@ -1,0 +1,43 @@
+:root{
+    --yunki-black: #0B0E14;
+  --skyblue: #000755;
+  --light-blue: #0200BB;
+  --yunki-color: #F40802;
+  --light-gray: #F7F7F7;
+  --dark-gray: #d9d9d9;
+  --darker-gray: #a4a4a4;
+  --yellow: #ffb700;
+  --font-color: #434343;
+  }
+  *{
+    font-family: centuryGothic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    color: var(--font-color);
+  }
+  .comment-form{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    position: fixed;
+  }
+  .comment-form .comment-form-textarea{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comment-form .comment-form-button{
+    width: 100%;
+    height: 45%;
+    font-family: poppinsLight;
+    /* background-color: blue; */
+    cursor: pointer;
+
+  }

@@ -1,0 +1,111 @@
+@font-face {
+  font-family: centuryGothic;
+  src: url(../public/fonts/century-gothic/Century\ Gothic.ttf);
+}
+@font-face {
+  font-family: centuryGothicBold;
+  src: url(../public/fonts/century-gothic/GOTHICB.TTF);
+}
+@font-face {
+  font-family: poppinsBold;
+  src: url(../public/fonts/poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: poppinsMedium;
+  src: url(../public/fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppinsLight;
+  src: url(../public/fonts/poppins/Poppins-Light.ttf);
+}
+
+:root{
+  --skyblue: #406DE9;
+  --light-blue: #0200BB;
+  --yunki-color: #F40802;
+  --light-gray: #F7F7F7;
+  --dark-gray: #d9d9d9;
+  --darker-gray: #a4a4a4;
+  --yellow: #ffb700;
+  --font-color: #434343;
+  }
+
+  .subtotal__container{
+    width: 85%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: .3px .3px 9px 0px rgba(0, 0, 0, .5);
+    border: 1px solid black;
+    /* position: relative; */
+    /* left: 60px; */
+
+  }
+  
+  .subtotal__gift{
+    width: 42%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: centuryGothic;
+    font-weight: bold;
+    /* background-color: rebeccapurple; */
+  }
+
+  .subtotal__container .subtotal__gift input{
+    width: 16px;
+    height: 16px;
+  }
+
+  .subtotal__container .checkout__btn{
+    width: 80%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--yunki-color);
+    color: white;
+    /* margin-bottom: 20px; */
+    font-family: poppinsMedium;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .subtotal__container p{
+    font-family: poppinsMedium;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    /* background-color: #F40802; */
+  }
+
+  .subtotal__container p .price__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    /* background-color: #01eeff; */
+  }
+
+  .price__container img{
+    position: relative;
+    top: 2px;
+    width: 19%;
+  }
+
+  .checkout__btn:hover{
+    background-color: var(--yunki-color);
+    transition: 1s ease all;
+  }
+

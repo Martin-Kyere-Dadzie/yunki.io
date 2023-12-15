@@ -1,0 +1,65 @@
+@font-face {
+    font-family: centuryGothic;
+    src: url(../public/fonts/century-gothic/Century\ Gothic.ttf);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/century-gothic/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/poppins/Poppins-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: centuryGothicBold;
+    src: url(../public/fonts/poppins/Poppins-Light.ttf);
+  }
+
+  :root{
+    --yunki-black: #0B0E14;
+  --skyblue: #000755;
+  --light-blue: #0200BB;
+  --yunki-color: #F40802;
+  --light-gray: #F7F7F7;
+  --dark-gray: #d9d9d9;
+  --darker-gray: #a4a4a4;
+  --yellow: #ffb700;
+  --font-color: #434343;
+  }
+  
+  .wishlist__container{
+    /* background-color: red; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wishlist__container .wishlist-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* margin-bottom: 2%; */
+    margin: 1.8% 0px;
+    /* background-color: blue; */
+
+  }
+  .wishlist-text h1{
+    font-size: 1.6rem;
+    margin-left: 4.5%;
+}
+.wishlist-text hr{
+    width: 65%;
+    margin-left: 4.5%;
+  }
+.wishlist__container button{
+    align-self: flex-start;
+    margin-left: 4.5%;
+}
