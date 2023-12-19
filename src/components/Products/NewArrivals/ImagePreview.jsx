@@ -5,13 +5,13 @@ import { useState } from 'react';
 
 const ImagePreview = ({images}) => {
 
+    const [preview, setPreview] = useState([0]);
   return (
     <div className="preview-container">
         
         {
             productData.map(((products) => {
                 
-                const [preview, setPreview] = useState(products.imageOnclick[0]);
                 const handleClick = (index) => {
                     // console.log(index);
                     const slider = products.imageOnclick[index];

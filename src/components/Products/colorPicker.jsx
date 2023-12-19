@@ -7,8 +7,9 @@ import short from '../public/images/63f8e2fa879dd01aabbf7672_Img  (3)-p-500.png'
 
 const productColorPicker = (image, image1, name, title, colors, price, id,ratings,comments,priceTag) => {
 
+  const dispatch = useDispatch
   const addToBag = () => {
-    useDispatch(bagActions.addToBag({
+    dispatch(bagActions.addToBag({
         image,
         image1,
         name,
